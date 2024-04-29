@@ -61,3 +61,4 @@ print(c == e) #True
 print(c is e) #True
 print(f'c value, id " {c}, {hex(id(c))}')
 print(f'e value, id " {e}, {hex(id(e))}')
+# c와 d와 e는 모두 같은 값을 가지지만, e는 c+d의 새로운 오브젝트 값을 가짐
