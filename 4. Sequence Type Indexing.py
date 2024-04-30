@@ -19,4 +19,4 @@ print(x.index('Banana', 0, len(x))) #찾을 길이 지정 가능
 # List 관련 함수는 중요!
 # cmp, len, max, min, list, append, count, extend, index, insert, pop, remove, reverse, sort..
 # index 함수 대소문자 구분
-# sort, sorted 함수 차이도 중요
+# sort, sorted 함수 차이도 중요!
