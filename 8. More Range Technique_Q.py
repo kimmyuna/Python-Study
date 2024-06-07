@@ -18,6 +18,7 @@ print(f'ex2의 결과 : {ex2}')
 
 #응용(List Comprehension)
 print([[j for j in range(5)] for i in range(5)])
+##리스트 안에서 리스트를 만들 수 있음
 
 
 # List Comprehension : 짧은 문법(Syntax)으로 간단하게 조건에 맞는 리스트 생성
