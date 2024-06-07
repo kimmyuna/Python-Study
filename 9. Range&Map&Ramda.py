@@ -1,4 +1,4 @@
-#9. Range & Map & Ramda
+#9. Range & Map & Rambda
 # 아래와 같이 1부터 15까지 원소 *10 결과는 문자열 리스트로 출력하세요
 # range, map, ramda 사용
 
@@ -20,12 +20,12 @@ print(f'ex3 결과 :  {list(map(lambda x : str(x*10), range(1, 16)))}')
 # 람다함수 : 인라인 작성으로 인해 가독성 증가(함수 표현식 내용이 적을 때 람다 사용 권장)
 #            함수 객체 반환 -> 함수 객체 인수로 받는 map, filter 등과 연계 사용
 # lambda : 
-## landa 매개변수 : 표현식
+## lambda 매개변수 : 표현식
 ## ex1) Add 10 to argument a, and return the result :
 x = lambda a : a + 10
 print(x(5))  #결과는 15 출력
 ## ex2) Multiply argument a with argument b and return the result:
-x = lambda a, b :  a * b
+x = lambda a, b :  a * b 
 print(x(5,6)) #결과는 30 출력
 ## ex3) Summarize argument a, b, and c and return the result:
 x= lambda a, b, c : a + b + c
